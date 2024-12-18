@@ -12,3 +12,20 @@ let expo = 2 ** 4;
 let myscore = 110;
 myscore++;
 myscore--;
+
+//comparison
+
+let num1 = 20;
+let num2 = 20;
+let num3 = 60;
+
+console.log(num1 != num2);
+
+/*
+==   -> equal to
+!=   -> not equal to
+> greater than
+< less than 
+
+
+*/
