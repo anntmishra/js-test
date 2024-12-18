@@ -31,3 +31,8 @@ console.log(greetMessage);
 
 let demoOne = `Value is ${2 + 2}`;
 console.log(demoOne);
+
+sym1 = Symbol("anant");
+sym2 = Symbol("anant");
+
+console.log(sym1 == sym2);
