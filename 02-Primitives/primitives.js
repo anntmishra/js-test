@@ -9,3 +9,22 @@ let anotherbalance = new Number(120);
 let isActive = true;
 let isReallyActive = new Boolean(true); // not recommended way
 console.log(isReallyActive);
+
+//null and undefined
+let firstname = null;
+let lastName = undefined;
+
+console.log(firstname, lastName);
+
+//string
+let myString = "hello";
+let myStringOne = "Hola";
+let username = "anant";
+
+let oldGreet = myString + " anant";
+console.log(oldGreet);
+
+let greetMessage = `hello ${username}!`;
+console.log(greetMessage);
+
+//    `......${as many datatypes I want to add}`
