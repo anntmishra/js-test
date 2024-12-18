@@ -28,3 +28,6 @@ let greetMessage = `hello ${username}!`;
 console.log(greetMessage);
 
 //    `......${as many datatypes I want to add}`
+
+let demoOne = `Value is ${2 + 2}`;
+console.log(demoOne);
