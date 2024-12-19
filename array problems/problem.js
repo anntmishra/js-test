@@ -20,9 +20,27 @@ citiesVisited.push("berlin");
 console.log(citiesVisited);
  */
 
-let teaOrders = ["chai", "iced tea", "matcha", "early grey"];
+//Problem 4
+/* let teaOrders = ["chai", "iced tea", "matcha", "early grey"];
 
 let firstOrder = teaOrders.splice(1, 1)[0];
 
 console.log(teaOrders);
 console.log(firstOrder);
+ */
+
+//Problem 5
+
+/* let popularTeas = ["green tea", "oolang tea", "chai"];
+let softCopyTeas = popularTeas.slice();  --->(This is how we create softcopy of an array )
+console.log(softCopyTeas);
+
+******important= .slice()
+ */
+
+//Problem 6
+
+let topCities = ["berlin", "singapore", "new york"];
+let hardCopyCities = [...topCities];
+topCities.pop;
+console.log(hardCopyCities);
