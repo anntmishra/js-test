@@ -15,6 +15,14 @@ console.log(teaTypes);
 
 //Problem 3
 
-let citiesVisited = ["mumbai", "sydney"];
-citiesVisited.push = "berlin";
+/* let citiesVisited = ["mumbai", "sydney"];
+citiesVisited.push("berlin");
 console.log(citiesVisited);
+ */
+
+let teaOrders = ["chai", "iced tea", "matcha", "early grey"];
+
+let firstOrder = teaOrders.splice(1, 1)[0];
+
+console.log(teaOrders);
+console.log(firstOrder);
