@@ -40,7 +40,31 @@ console.log(softCopyTeas);
 
 //Problem 6
 
-let topCities = ["berlin", "singapore", "new york"];
+/* let topCities = ["berlin", "singapore", "new york"];
 let hardCopyCities = [...topCities];
 topCities.pop;
 console.log(hardCopyCities);
+ */
+
+//Problem 7
+
+/* let europianCities = ["paris", "rome"];
+let asianCities = ["tokyo", "bangkok"];
+// const newCitites = europianCities + "," + asianCities;//making it as a string we want a array
+// console.log(newCitites);
+
+//use of (.concat)
+let worldCities = europianCities.concat(asianCities);
+console.log(worldCities); */
+
+//Problem 8
+/* let teaMenu = ["masala chai", "oolang tea", "green tea", "earl grey"];
+
+const menuLength = teaMenu.length;
+console.log(menuLength);
+ */
+
+//Problem 9
+let cityBucketList = ["kyoto", "london", "cape town", "vancouver"];
+const isLondoninList = cityBucketList.includes("london");
+console.log(isLondoninList);
