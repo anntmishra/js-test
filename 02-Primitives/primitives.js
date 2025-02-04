@@ -24,7 +24,7 @@ let username = "anant";
 let oldGreet = myString + " anant";
 console.log(oldGreet);
 
-let greetMessage = `hello ${username}!`;
+let greetMessage = `hello ${username + " " + myString}!`;
 console.log(greetMessage);
 
 //    `......${as many datatypes I want to add}`

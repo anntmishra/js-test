@@ -17,13 +17,10 @@ const testname = {
   "test name": "bob",
 };
 
-console.log(testname["test name"]); //important
+console.log(testname["test name:"]); //important
 /*
 -
 */
 
 let today = new Date();
 console.log(today.getDay());
-
-
-
