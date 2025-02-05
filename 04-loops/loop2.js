@@ -1,18 +1,17 @@
 //Question 1
-/* let teas = ["green tea", "oolang tea", "chai", "black tea"];
+let teasy = ["green tea", "oolang tea", "chai", "black tea"];
 let selectedTeas = [];
 
-for (let i = 0; i < teas.length; i++) {
-  selectedTeas.push(teas[i]);
-  if (teas[i] === "chai") {
+for (let i = 0; i < teasy.length; i++) {
+  selectedTeas.push(teasy[i]);
+  if (teasy[i] === "chai") {
     break;
   }
 }
-console.log(selectedTeas);
- */
+// console.log(selectedTeas);
 
 //Question 2
-/* let cities = ["london", "New York", "paris", "berlin"];
+let cities = ["london", "New York", "paris", "berlin"];
 
 let visitedCities = [];
 
@@ -22,11 +21,10 @@ for (let i = 0; i < cities.length; i++) {
   }
   visitedCities.push(cities[i]);
 }
-console.log(visitedCities);
- */
+// console.log(visitedCities);
 
 //Question 3
-/* let numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 let smallNumber = [];
 
 for (const num of numbers) {
@@ -36,10 +34,10 @@ for (const num of numbers) {
   smallNumber.push(num);
 }
 
-console.log(smallNumber); */
+// console.log(smallNumber);
 
 //Question 4
-/* 
+
 let teaTypes = ["chai", "green tea", "herbal tea", "black tea"];
 
 let prefferedTea = [];
@@ -50,12 +48,11 @@ for (const tea of teaTypes) {
   }
   prefferedTea.push(tea);
 }
-console.log(prefferedTea);
- */
+// console.log(prefferedTea);
 
 //Quesiton 5
 
-/* let citiesPopulation = {
+let citiesPopulation = {
   London: 8900000,
   "New York": 8400000,
   Paris: 2200000,
@@ -70,19 +67,30 @@ for (let city in citiesPopulation) {
   }
   cityPopulations.push(citiesPopulation[city]);
 }
-console.log(cityPopulations);
- */
+// console.log(cityPopulations);
 
 //Question 6
 
-// let teas = ["earl grey", "green tea", "chai", "oolang tea"];
-// let availableTea = [];
+let teas = ["earl grey", "green tea", "chai", "oolang tea"];
+let availableTea = [];
 
-// teas.forEach((tea) => {
-//   console.log(tea);
-// });
+teas.forEach((tea) => {
+  if (tea == "chai") {
+    return;
+  }
+  availableTea.push(tea);
+});
+// console.log(availableTea);
 
-function hello(dsas) {
-  console.log("boop");
-  console.log(dsas);
-}
+//here in for each we used return instead of break because we were inside a function and break dosen't works there.
+
+//There are two ways to write function
+
+/* #1 function(){
+
+} 
+#2 ()=>{
+} 
+ */
+
+//break is never used in a function
