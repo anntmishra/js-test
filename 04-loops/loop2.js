@@ -94,3 +94,16 @@ teas.forEach((tea) => {
  */
 
 //break is never used in a function
+
+//Question 7
+let crazy = ["Kanpur", "Delhi", "Lucknow", "Mumbai"];
+let savedCities = [];
+
+crazy.forEach((test) => {
+  if (test == "Lucknow") {
+    return;
+  }
+  savedCities.push(test);
+});
+
+console.log(savedCities);
